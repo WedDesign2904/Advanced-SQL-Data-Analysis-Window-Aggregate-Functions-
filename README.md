@@ -8,3 +8,8 @@ This document provides practical, pure‑SQL patterns and recipes that rely only
 4. Quality Checks
 5. Part to Whole
 6. Comparison Analysis - Extreme
+
+# Quick prerequisites
+Basic knowledge of SELECT, GROUP BY, and ORDER BY.
+SQL engine that supports window functions (e.g., OVER (PARTITION BY ... ORDER BY ...)).
+Familiarity with common aggregates: SUM(), COUNT(), AVG(), MAX(), MIN().
