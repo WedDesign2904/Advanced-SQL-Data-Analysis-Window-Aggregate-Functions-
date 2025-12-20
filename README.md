@@ -13,3 +13,16 @@ This document provides practical, pure‑SQL patterns and recipes that rely only
 * Basic knowledge of SELECT, GROUP BY, and ORDER BY. 
 * SQL engine that supports window functions (e.g., OVER (PARTITION BY ... ORDER BY ...)). 
 * Familiarity with common aggregates: SUM(), COUNT(), AVG(), MAX(), MIN(). 
+
+
+👉 GitHub will automatically display your language usage based on file types like `.sql`. If you later include only SQL scripts, it may show *SQL* as the main language — even though GitHub sometimes classifies SQL under “Other”. You can refine detection with a **`.gitattributes`** file if needed.
+
+---
+
+## ✅ 3. Improve Language Display
+
+GitHub language bar is calculated automatically by file types (e.g., `.sql`).  
+If you want to **influence what shows up**, use a `.gitattributes` file like:
+
+```gitattributes
+*.sql linguist-language=SQL
